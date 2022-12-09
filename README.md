@@ -1,26 +1,29 @@
-# Final_project
-Final project of Ironhack
-
-
-# First idea
-
-Spotify playlist creation
-
-As I'm listening music 24/7 in Spotify, I would like to create a model to predict and create playlists according to your musical taste. Maybe connect Streamlit with Spotify
-Also, it could be an option to ask to the user the user name and password and generate that playlist. Furthermor, It would be nice if the user introduce a topic, i.e. 'Dance' and the playlist created is Dance. If the topic is not found, create a random list based in that topic
-
-Data from API Spotify
+# Final project Data analytics in Ironhack: Dec 9th, 2022
 
 
 
 
-# Second idea
+This repository contains the project I made for my graduation of the Bootcamp I attended in Ironhack Paris of Data analytics.
 
-Generate a model to predict if we are goint to have waves to surf in my local spot (of my little town in the Mediterranean Sea). I asked for the data to the web that provides a 12 days forecast of that precise place because I don't know if I could find the historical data. 
 
-The goal would be not to know only if we are going to have waves, but also if we are going to have the big swell as we have a small sea and the big and good waves are not very common. Maybe one time in 2 years we have good waves and one time every 5 years we have amazing conditions.
+Goal of the project:
+                    - Analyse how the music has evolved over the years -> dataset of Kaggle with songs fromn 1920 to 2020:             
+                                                                                    https://www.kaggle.com/datasets/javivaleiras/spotify-tracks-19202020
+                    - Study how is my behavior listenint to music -> Spotify streaming history - request in your personal settings in your account
+                    - Create a machine learning model that can predict a song’s popularity.
+             
+             
+Planning in Jira: https://daftparis.atlassian.net/jira/software/projects/SP/boards/6
 
-It would be just my desired model but I don't know if I can perform this.
+
+
+Datasets:
+        - Spotify API : top 100 songs from 2018 to 2021 and 150 current top songs of 2022
+        - Kaggle: 1920-2020 songs +- 600.000 tracks
+        - My streaming history of Spotify
+                    
+
+
 
 
 
